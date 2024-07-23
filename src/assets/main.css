@@ -1,0 +1,71 @@
+@import './base.css';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(100vw * 16 / 1920);
+
+  @media (max-width: 750px) {
+    font-size: calc(100vw * 16 / 320);
+  }
+
+}
+
+body {
+  font-family: 'Yeseva One', sans-serif;
+}
+
+#app {
+  position: relative;
+  margin: 0 auto;
+  max-width: 20rem;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 18rem;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  color: rgb(255, 199, 0);
+  font-size: 1.88rem;
+  font-weight: 400;
+  line-height: 2.19rem;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: rgb(255, 199, 0);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 0.88rem;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  font-family: 'PT Serif', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.69rem;
+  letter-spacing: 5%;
+  text-align: center;
+}
+
+
+
